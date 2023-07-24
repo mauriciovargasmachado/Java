@@ -1,5 +1,3 @@
-package laundrymachinefuntions;
-
 public class LaundryMachineFuntions {
 
     //atributos
@@ -70,4 +68,14 @@ public class LaundryMachineFuntions {
         }
     }
 
+    // setters and getters
+
+
+    public int getClothesType() {
+        return clothesType;
+    }
+
+    public void setClothesType(int clothesType) {
+        this.clothesType = clothesType;
+    }
 }
