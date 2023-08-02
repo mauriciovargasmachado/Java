@@ -29,10 +29,19 @@ public class Ventana extends JFrame {
         //p1.setBackground(Color.green);
 
         JLabel l1 = new JLabel("This is the first label");
-        l1.setBounds(10,10,40,60);
-        this.getContentPane().add(l1);
+        l1.setBounds(10,10,190,30);
+        l1.setHorizontalAlignment(SwingConstants.CENTER);
+        l1.setForeground(Color.white);
+        l1.setBackground(Color.black);
+        l1.setOpaque(true);
+        l1.setFont(new Font("chiller",Font.PLAIN,20));
+        p1.add(l1);
 
-
+        ImageIcon imagen_1 = new ImageIcon("pizza.jpg");
+        JLabel i1 = new JLabel(imagen_1);
+        i1.setBounds(10,80,458,458) ;
+        i1.setIcon(new ImageIcon(imagen_1.getImage().getScaledInstance(400,400,Image.SCALE_SMOOTH)));
+        p1.add(i1);
 
     }
 
