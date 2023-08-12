@@ -6,5 +6,10 @@ public class Main {
         w1.setLocationRelativeTo(null);
         w1.setVisible(true);
 
+        License lice_1 = new License();
+        lice_1.setBounds(0,0,600,360);
+        lice_1.setLocationRelativeTo(null);
+        lice_1.setVisible(true);
+
     }
 }

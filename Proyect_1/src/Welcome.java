@@ -19,25 +19,27 @@ public class Welcome extends JFrame implements ActionListener {
 
         setIconImage(new ImageIcon(getClass().getResource("Images/icon.jpg")).getImage());
 
-        ImageIcon i1 = new ImageIcon("Images/icon.jpg");
-        l1 = new JLabel(i1);
-        l1.setBounds(25,15,300,150);
+
+        l1 = new JLabel("EOLO");
+        l1.setBounds(115,15,300,150);
+        l1.setFont(new Font("Andale Mono",1,40));
+        l1.setForeground(new Color(0,0,250));
         add(l1);
 
         l2 = new JLabel("Workers control system.");
-        l2.setBounds(45,135,300,30);
+        l2.setBounds(65,135,300,30);
         l2.setFont(new Font("Andale Mono",1,18));
         l2.setForeground(new Color(0,0,250));
         add(l2);
 
         l3 = new JLabel("Ingrese su nombre");
-        l3.setBounds(65,212,200,30);
+        l3.setBounds(115,212,200,30);
         l3.setFont(new Font("Andale Mono",1,12));
         l3.setForeground(new Color(0,0,250));
         add(l3);
 
-        l4 = new JLabel("*****Eolo company 2023*****.");
-        l4.setBounds(85,375,300,30);
+        l4 = new JLabel("*****Eolo company 2023*****");
+        l4.setBounds(95,375,300,30);
         l4.setFont(new Font("Andale Mono",1,12));
         l4.setForeground(new Color(0,0,250));
         add(l4);
@@ -61,7 +63,9 @@ public class Welcome extends JFrame implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent click){
+        if(click.getSource()==b1){
 
+        }
     }
 
 }
