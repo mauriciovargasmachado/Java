@@ -11,5 +11,11 @@ public class Main {
         lice_1.setLocationRelativeTo(null);
         lice_1.setVisible(true);
 
+        First f1 = new First();
+        f1.setBounds(0,0,700,550);
+        f1.setLocationRelativeTo(null);
+        f1.setVisible(true);
+
+
     }
 }

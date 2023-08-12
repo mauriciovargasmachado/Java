@@ -12,11 +12,8 @@ public class Welcome extends JFrame implements ActionListener {
     public Welcome (){
 
         setLayout(null);
-
-        setTitle("Welcome");
-
+        setTitle("Welcome - EOLO Company");
         getContentPane().setBackground(new Color(255,255,255));
-
         setIconImage(new ImageIcon(getClass().getResource("Images/icon.jpg")).getImage());
 
 
@@ -38,7 +35,7 @@ public class Welcome extends JFrame implements ActionListener {
         l3.setForeground(new Color(0,0,250));
         add(l3);
 
-        l4 = new JLabel("*****Eolo company 2023*****");
+        l4 = new JLabel("***** Eolo company 2023 *****");
         l4.setBounds(95,375,300,30);
         l4.setFont(new Font("Andale Mono",1,12));
         l4.setForeground(new Color(0,0,250));

@@ -16,7 +16,7 @@ public class License extends JFrame implements ChangeListener, ActionListener {
     public License(){
 
         setLayout(null);
-        setTitle("License of use");
+        setTitle("License of use - EOLO company");
         getContentPane().setBackground(new Color(255,255,255));
         setIconImage(new ImageIcon(getClass().getResource("Images/icon.jpg")).getImage());
 
@@ -72,4 +72,7 @@ public class License extends JFrame implements ChangeListener, ActionListener {
 
 
 
+
 }
+
+
